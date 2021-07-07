@@ -1,2 +1,2 @@
-# project.
+# Grocery Billing System.
 miniproject
