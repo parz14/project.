@@ -1,3 +1,5 @@
 # Grocery Billing System.
 miniproject
-https://frontend.code-inspector.com/home 
+
+https://www.code-inspector.com/project/24872/score/svg
+
