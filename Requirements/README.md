@@ -28,3 +28,6 @@ owner of the grocery shop can:
 •	Create update and delete search details of products and bill it.
 
 •	Can search all products in various codes and can update and delete them.
+
+![uml](https://user-images.githubusercontent.com/62294775/125511583-9570c2f9-f026-4c3b-9f74-6c0c3b669080.PNG)
+
