@@ -42,6 +42,11 @@ The Customer Billing System interacts with :
 * To print information of all the customers
 * To search for an account
 
+## Use case Diagram
+
+![uml](https://user-images.githubusercontent.com/62294775/125558979-b2aa3946-3158-4fb7-88e0-6384a53ca68e.PNG)
+
+
 ## SWOT Analysis
 ![](SWOT.png)
 
