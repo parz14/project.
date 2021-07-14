@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include "unity.h"
-#include "../inc/myHeader.h"
-#include "../unity/unity.h"
 #include "Customer_billing.h"
 
 /* Modify these two lines according to the project */
