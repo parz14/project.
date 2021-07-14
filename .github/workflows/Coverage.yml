@@ -26,6 +26,6 @@ jobs:
     - name: Install gcov 
       run: sudo apt -y install gcovr
     - name: make test
-      run:  make -C 3_Implementation/ test_customer_billing.c
+      run:  make -C 3_Implementation/ Test
     - name: GCov only
       run:  gcovr -r .
