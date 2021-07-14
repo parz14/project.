@@ -1,3 +1,6 @@
+Implementation/Test/test_customer_billing.c:39:33: error: syntax error [syntaxError]
+* Start of the application test */
+                                ^
 Implementation/Unity/unity.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 42 configurations. Use --force to check all configurations. [toomanyconfigs]
 
 ^
