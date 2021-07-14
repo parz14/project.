@@ -1,0 +1,200 @@
+Implementation/Unity/unity.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 42 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+Implementation/Unity/unity.c:276:9: style: The scope of the variable 'nibble' can be reduced. [variableScope]
+    int nibble;
+        ^
+Implementation/Unity/unity.c:1351:18: style: The scope of the variable 'i' can be reduced. [variableScope]
+    UNITY_UINT32 i;
+                 ^
+Implementation/Unity/unity.c:1391:18: style: The scope of the variable 'i' can be reduced. [variableScope]
+    UNITY_UINT32 i;
+                 ^
+Implementation/Unity/unity.c:1515:18: style: The scope of the variable 'bytes' can be reduced. [variableScope]
+    UNITY_UINT32 bytes;
+                 ^
+Implementation/Unity/unity.c:1759:28: style:inconclusive: Function 'UnityFail' argument 1 names different: declaration 'message' definition 'msg'. [funcArgNamesDifferent]
+void UnityFail(const char* msg, const UNITY_LINE_TYPE line)
+                           ^
+Implementation/Unity/unity_internals.h:602:28: note: Function 'UnityFail' argument 1 names different: declaration 'message' definition 'msg'.
+void UnityFail(const char* message, const UNITY_LINE_TYPE line) UNITY_FUNCTION_ATTR(noreturn);
+                           ^
+Implementation/Unity/unity.c:1759:28: note: Function 'UnityFail' argument 1 names different: declaration 'message' definition 'msg'.
+void UnityFail(const char* msg, const UNITY_LINE_TYPE line)
+                           ^
+Implementation/Unity/unity.c:1796:30: style:inconclusive: Function 'UnityIgnore' argument 1 names different: declaration 'message' definition 'msg'. [funcArgNamesDifferent]
+void UnityIgnore(const char* msg, const UNITY_LINE_TYPE line)
+                             ^
+Implementation/Unity/unity_internals.h:603:30: note: Function 'UnityIgnore' argument 1 names different: declaration 'message' definition 'msg'.
+void UnityIgnore(const char* message, const UNITY_LINE_TYPE line) UNITY_FUNCTION_ATTR(noreturn);
+                             ^
+Implementation/Unity/unity.c:1796:30: note: Function 'UnityIgnore' argument 1 names different: declaration 'message' definition 'msg'.
+void UnityIgnore(const char* msg, const UNITY_LINE_TYPE line)
+                             ^
+Implementation/Unity/unity.c:1812:31: style:inconclusive: Function 'UnityMessage' argument 1 names different: declaration 'message' definition 'msg'. [funcArgNamesDifferent]
+void UnityMessage(const char* msg, const UNITY_LINE_TYPE line)
+                              ^
+Implementation/Unity/unity_internals.h:604:31: note: Function 'UnityMessage' argument 1 names different: declaration 'message' definition 'msg'.
+void UnityMessage(const char* message, const UNITY_LINE_TYPE line);
+                              ^
+Implementation/Unity/unity.c:1812:31: note: Function 'UnityMessage' argument 1 names different: declaration 'message' definition 'msg'.
+void UnityMessage(const char* msg, const UNITY_LINE_TYPE line)
+                              ^
+Implementation/Unity/unity.c:1432:20: style: Variable 'i' is assigned a value that is never used. [unreadVariable]
+    UNITY_UINT32 i = 0;
+                   ^
+Implementation/Unity/unity.c:1834:0: information: Skipping configuration 'UNITY_CLOCK_MS;UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_EXEC_TIME_START' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+    UNITY_EXEC_TIME_START();
+^
+Implementation/Unity/unity.c:1844:0: information: Skipping configuration 'UNITY_CLOCK_MS;UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_EXEC_TIME_STOP' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+    UNITY_EXEC_TIME_STOP();
+^
+Implementation/Unity/unity.c:558:0: information: Skipping configuration 'UNITY_CLOCK_MS;UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_PRINT_EXEC_TIME' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+    UNITY_PRINT_EXEC_TIME();
+^
+Implementation/Unity/unity_internals.h:453:0: information: Skipping configuration 'UNITY_CLOCK_MS;UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_TIME_TYPE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+    UNITY_TIME_TYPE CurrentTestStartTime;
+^
+Implementation/Unity/unity_internals.h:454:0: information: Skipping configuration 'UNITY_CLOCK_MS;UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_TIME_TYPE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+    UNITY_TIME_TYPE CurrentTestStopTime;
+^
+Implementation/Unity/unity.c:1834:0: information: Skipping configuration 'UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_EXEC_TIME_START' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+    UNITY_EXEC_TIME_START();
+^
+Implementation/Unity/unity.c:1844:0: information: Skipping configuration 'UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_EXEC_TIME_STOP' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+    UNITY_EXEC_TIME_STOP();
+^
+Implementation/Unity/unity.c:558:0: information: Skipping configuration 'UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_PRINT_EXEC_TIME' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+    UNITY_PRINT_EXEC_TIME();
+^
+Implementation/Unity/unity_internals.h:453:0: information: Skipping configuration 'UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_TIME_TYPE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+    UNITY_TIME_TYPE CurrentTestStartTime;
+^
+Implementation/Unity/unity_internals.h:454:0: information: Skipping configuration 'UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_TIME_TYPE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+    UNITY_TIME_TYPE CurrentTestStopTime;
+^
+Implementation/src/Customer_Billing.c:95:23: warning: printf format string requires 0 parameters but 1 is given. [wrongPrintfScanfArgNum]
+                      printf("Updated Balance is: &.2f\n", customer[i].balance);
+                      ^
+Implementation/src/Customer_Billing.c:121:15: warning: %d in format string (no. 1) requires 'int' but the argument type is 'long'. [invalidPrintfArgType_sint]
+              printf("\t customer mobile: %d\n", customer[i].mobile_no);
+              ^
+Implementation/src/Customer_Billing.c:66:11: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+          scanf("%s", customer[ind].name);
+          ^
+Implementation/src/Customer_Billing.c:70:11: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+          scanf("%s", customer[ind].city);
+          ^
+Implementation/src/Customer_Billing.c:28:21: style: Local variable 'id' shadows outer variable [shadowVariable]
+                int id = createAccount(i);
+                    ^
+Implementation/src/Customer_Billing.c:9:32: note: Shadowed declaration
+int cust_count = 0,act_no = 0, id = 1001;
+                               ^
+Implementation/src/Customer_Billing.c:28:21: note: Shadow variable
+                int id = createAccount(i);
+                    ^
+Implementation/src/Customer_Billing.c:76:19: style: Local variable 'i' shadows outer variable [shadowVariable]
+          for(int i = 0; i < cust_count; i++){
+                  ^
+Implementation/src/Customer_Billing.c:10:5: note: Shadowed declaration
+int i = 0;
+    ^
+Implementation/src/Customer_Billing.c:76:19: note: Shadow variable
+          for(int i = 0; i < cust_count; i++){
+                  ^
+Implementation/src/Customer_Billing.c:91:19: style: Local variable 'i' shadows outer variable [shadowVariable]
+          for(int i = 0; i < cust_count; i++){
+                  ^
+Implementation/src/Customer_Billing.c:10:5: note: Shadowed declaration
+int i = 0;
+    ^
+Implementation/src/Customer_Billing.c:91:19: note: Shadow variable
+          for(int i = 0; i < cust_count; i++){
+                  ^
+Implementation/src/Customer_Billing.c:108:19: style: Local variable 'i' shadows outer variable [shadowVariable]
+          for(int i =0; i < cust_count; i++){
+                  ^
+Implementation/src/Customer_Billing.c:10:5: note: Shadowed declaration
+int i = 0;
+    ^
+Implementation/src/Customer_Billing.c:108:19: note: Shadow variable
+          for(int i =0; i < cust_count; i++){
+                  ^
+Implementation/src/Customer_Billing.c:117:19: style: Local variable 'i' shadows outer variable [shadowVariable]
+          for(int i =0; i  <cust_count; i++){
+                  ^
+Implementation/src/Customer_Billing.c:10:5: note: Shadowed declaration
+int i = 0;
+    ^
+Implementation/src/Customer_Billing.c:117:19: note: Shadow variable
+          for(int i =0; i  <cust_count; i++){
+                  ^
+Implementation/Unity/unity.c:685:0: style: The function 'UnityAssertBits' is never used. [unusedFunction]
+
+^
+Implementation/Unity/unity.c:904:0: style: The function 'UnityAssertEqualFloatArray' is never used. [unusedFunction]
+
+^
+Implementation/Unity/unity.c:774:0: style: The function 'UnityAssertEqualIntArray' is never used. [unusedFunction]
+
+^
+Implementation/Unity/unity.c:1504:0: style: The function 'UnityAssertEqualMemory' is never used. [unusedFunction]
+
+^
+Implementation/Unity/unity.c:706:0: style: The function 'UnityAssertEqualNumber' is never used. [unusedFunction]
+
+^
+Implementation/Unity/unity.c:1346:0: style: The function 'UnityAssertEqualString' is never used. [unusedFunction]
+
+^
+Implementation/Unity/unity.c:1425:0: style: The function 'UnityAssertEqualStringArray' is never used. [unusedFunction]
+
+^
+Implementation/Unity/unity.c:1385:0: style: The function 'UnityAssertEqualStringLen' is never used. [unusedFunction]
+
+^
+Implementation/Unity/unity.c:971:0: style: The function 'UnityAssertFloatSpecial' is never used. [unusedFunction]
+
+^
+Implementation/Unity/unity.c:952:0: style: The function 'UnityAssertFloatsWithin' is never used. [unusedFunction]
+
+^
+Implementation/Unity/unity.c:727:0: style: The function 'UnityAssertGreaterOrLessOrEqualNumber' is never used. [unusedFunction]
+
+^
+Implementation/Unity/unity.c:1226:0: style: The function 'UnityAssertNumbersArrayWithin' is never used. [unusedFunction]
+
+^
+Implementation/Unity/unity.c:1179:0: style: The function 'UnityAssertNumbersWithin' is never used. [unusedFunction]
+
+^
+Implementation/Unity/unity.c:1856:0: style: The function 'UnityBegin' is never used. [unusedFunction]
+
+^
+Implementation/Unity/unity.c:1828:0: style: The function 'UnityDefaultTestRun' is never used. [unusedFunction]
+
+^
+Implementation/Unity/unity.c:1872:0: style: The function 'UnityEnd' is never used. [unusedFunction]
+
+^
+Implementation/Unity/unity.c:1759:0: style: The function 'UnityFail' is never used. [unusedFunction]
+
+^
+Implementation/Unity/unity.c:1611:0: style: The function 'UnityFloatToPtr' is never used. [unusedFunction]
+
+^
+Implementation/Unity/unity.c:1796:0: style: The function 'UnityIgnore' is never used. [unusedFunction]
+
+^
+Implementation/Unity/unity.c:1812:0: style: The function 'UnityMessage' is never used. [unusedFunction]
+
+^
+Implementation/Unity/unity.c:1585:0: style: The function 'UnityNumToPtr' is never used. [unusedFunction]
+
+^
+Implementation/Unity/unity.c:1850:0: style: The function 'UnitySetTestFile' is never used. [unusedFunction]
+
+^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingInclude]
+
