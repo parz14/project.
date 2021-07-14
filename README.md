@@ -4,4 +4,3 @@
 [![Code Quality Score](https://www.code-inspector.com/project/25207/score/svg)](https://www.code-inspector.com/project/25207/score/svg)
 [![Code Grade](https://www.code-inspector.com/project/25207/status/svg)](https://www.code-inspector.com/project/25207/status/svg)
 
-|[![Cpp_Check](https://github.com/parz14/project./blob/1801d285ecf4e0b472518461c87eef1856895724/.github/workflows/Cppcheck.yml)](https://github.com/parz14/project./blob/1801d285ecf4e0b472518461c87eef1856895724/.github/workflows/Cppcheck.yml)
