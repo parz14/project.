@@ -1,11 +1,23 @@
 
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/71e44855d5c44e4ebf93a5427aefe800)](https://www.codacy.com/gh/parz14/project./dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=parz14/project.&amp;utm_campaign=Badge_Grade)
+
 [![Code Quality Score](https://www.code-inspector.com/project/25207/score/svg)](https://www.code-inspector.com/project/25207/score/svg)
+
 [![Code Grade](https://www.code-inspector.com/project/25207/status/svg)](https://www.code-inspector.com/project/25207/status/svg)
+
 [![Contribution Check - Git Inspector](https://github.com/parz14/project./actions/workflows/Git_inspector.yml/badge.svg)](https://github.com/parz14/project./actions/workflows/Git_inspector.yml)
+
 [![cppcheck-test](https://github.com/parz14/project./actions/workflows/Cppcheck.yml/badge.svg)](https://github.com/parz14/project./actions/workflows/Cppcheck.yml)
+
 [![CI](https://github.com/parz14/project./actions/workflows/C_Build.yml/badge.svg)](https://github.com/parz14/project./actions/workflows/C_Build.yml)
+
+[![Unit Testing - Unity](https://github.com/parz14/project./actions/workflows/unit_testing.yml/badge.svg)](https://github.com/parz14/project./actions/workflows/unit_testing.yml)
+
+[![CI-Coverage](https://github.com/parz14/project./actions/workflows/Coverage.yml/badge.svg)](https://github.com/parz14/project./actions/workflows/Coverage.yml)
+
+[![Valgrind](https://github.com/parz14/project./actions/workflows/Valgrid.yml/badge.svg)](https://github.com/parz14/project./actions/workflows/Valgrid.yml)
+
 
 # Requirements
 
