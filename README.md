@@ -4,6 +4,7 @@
 [![Code Quality Score](https://www.code-inspector.com/project/25207/score/svg)](https://www.code-inspector.com/project/25207/score/svg)
 [![Code Grade](https://www.code-inspector.com/project/25207/status/svg)](https://www.code-inspector.com/project/25207/status/svg)
 [![Contribution Check - Git Inspector](https://github.com/parz14/project./actions/workflows/Git_inspector.yml/badge.svg)](https://github.com/parz14/project./actions/workflows/Git_inspector.yml)
+[![cppcheck-action](https://github.com/parz14/project./actions/workflows/cppcheck.yml/badge.svg)](https://github.com/parz14/project./actions/workflows/cppcheck.yml)
 
 # Requirements
 
