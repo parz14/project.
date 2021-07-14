@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "unity.h"
 #include "Customer_billing.h"
 
@@ -20,6 +19,18 @@ void tearDown(){}
 /* Start of the application test */
 int main()
 {
+/* Initiate the Unity Test Framework */
+  UNITY_BEGIN();
+
+/* Run Test functions */
+  RUN_TEST(test_searchACustomer);
+  RUN_TEST(test_payBill);
+  RUN_TEST(test_printAllCustomers);
+  RUN_TEST(test_addBalance);
+
+  /* Close the Unity Test Framework */
+  return UNITY_END();
+}
 
 /* Write all the test functions */ 
 void test_searchACustomer(void) {
@@ -37,16 +48,4 @@ void test_printAllCustomers(void) {
 
 void test_addBalance(void) {
   TEST_ASSERT_EQUAL(void, addBalance());
-}
-/* Initiate the Unity Test Framework */
-  UNITY_BEGIN();
-
-/* Run Test functions */
-  RUN_TEST(test_searchACustomer);
-  RUN_TEST(test_payBill);
-  RUN_TEST(test_printAllCustomers);
-  RUN_TEST(test_addBalance);
-
-  /* Close the Unity Test Framework */
-  return UNITY_END();
 }
